@@ -14,7 +14,7 @@ User Story #4: I can see at least three clickable elements inside the nav elemen
 User Story #5: When I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page.
 
 User Story #6: I can watch an embedded product video with id="video".
-
+-
 User Story #7: My landing page has a form element with a corresponding id="form".
 
 User Story #8: Within the form, there is an input field with id="email" where I can enter an email address.
