@@ -9,7 +9,8 @@ header{
   background: #222;
   padding-top: 20px;
   border-bottom: 2px solid #00C713;
-
+  position: fixed;
+  width: 100%;
 }
 
 #header-img{
@@ -23,7 +24,6 @@ h1{
   margin: 20px;
   text-transform: uppercase;
 }
-
 
 ul{
   text-transform: uppercase;
@@ -47,8 +47,9 @@ a:hover{
 
 #destinations{
   background: rgba(132, 255, 222, .2);
-  padding: 40px;
+  padding-top: 140px;
   border-bottom: 2px solid #ccc;
+
 }
 
 #dest-container{
@@ -56,6 +57,7 @@ a:hover{
   margin: 20px auto;
   text-align: center;
 }
+
 
 #dest-button{
   color: rgba(0 199 119);
@@ -65,4 +67,173 @@ a:hover{
   font-size: 20px;
   background: #333;
   margin: 20px auto;
+  border-radius: 15px;
+}
+
+#gadgets{
+  background: #222;
+}
+
+#gadgets-title{
+  text-align: center;
+  font-size: 30px;
+  padding: 30px;
+  text-transform: uppercase;
+  color: white;
+}
+
+#gadgets1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#gadgets2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.img-container{
+  border-radius: 10px;
+  text-align: center;
+  width: 600px;
+  height: 300px;
+  margin: 40px 20px;
+  display: inline-block;
+}
+
+#img{
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/White_Fiat_Ducato_Campervan_2006.jpg/1200px-White_Fiat_Ducato_Campervan_2006.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+#img2{
+  background: url('http://travelwithbender.com/files/6315/0498/7440/wifi_hotspot_IMG_1793-2.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+#img3{
+  background: url('https://i5.walmartimages.com/asr/3447faf9-b785-4266-bb14-1a5a8d681ff0_1.b7a09a5394f8741f3f9957ace1b457cd.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF') center center no-repeat;
+  background-size: cover;
+}
+
+#img4{
+  background: url('https://i.dell.com/sites/csimages/Video_Imagery/all/cinema-incredible-color-sound-streaming.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.img-text{
+  font-size: 30px;
+  color: rgba(0 199 19);
+}
+
+#questions{
+  background: url('https://www.newyorkecommerceforum.com/wp-content/uploads/2018/07/Truth-about-a-digital-nomad-lifestyle.jpg')center center no-repeat;
+  background-size: cover;
+  padding: 100px;
+}
+
+#form{
+  padding: 30px;
+  background: #eee;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 2px 2px 3px 10px rgba(0, 0, 0, .2);
+}
+
+#form-text{
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px 0;
+}
+
+input{
+  width: 95%;
+  border-radius: 15px;
+  padding: 10px;
+  margin: auto;
+  display: block;
+  font-size: 20px;
+}
+
+#submit{
+  width: 100%;
+  color: rgba(0 209 123);
+  background: #333;
+}
+
+
+textarea{
+  min-width: 100%;
+  min-height: 100px;
+  resize: none;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+/*  MEDIA QUERIES  */
+
+@media (max-width: 830px){
+  #gadgets1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  #gadgets2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .img-container{
+    max-width: 100%;
+    margin: 20px auto;
+    max-height: 200px;
+  }
+
+  #questions{
+    background: url('https://www.newyorkecommerceforum.com/wp-content/uploads/2018/07/Truth-about-a-digital-nomad-lifestyle.jpg')center center no-repeat;
+    background-size: cover;
+    padding: 20px 10px;
+  }
+
+  #form{
+    padding: 30px;
+    background: #eee;
+    max-width: 400px;
+    margin: auto;
+  }
+
+  #form-text{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  input{
+    width: 95%;
+    border-radius: 15px;
+    padding: 10px;
+    margin: auto;
+    display: block;
+    font-size: 20px;
+  }
+
+  #submit{
+    width: 100%;
+  }
+
+
+  textarea{
+    min-width: 100%;
+    min-height: 100px;
+    resize: none;
+    border-radius: 15px;
+    font-size: 20px;
+  }
+
+
 }

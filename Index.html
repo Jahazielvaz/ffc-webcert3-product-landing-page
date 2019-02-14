@@ -11,14 +11,15 @@
 
       <nav id="nav-bar">
         <ul>
-          <li><a class="nav-link" href="./navlinks/destinations.html" >Best Destinations</a></li>
-          <li><a class="nav-link" href="./navlinks/gadgets.html">Questions</a></li>
-          <li><a class="nav-link" href="./navlinks/transportation.html">Gadgets</a></li>
+          <li><a class="nav-link" href="#destinations" >Best Destinations</a></li>
+          <li><a class="nav-link" href="#gadgets">Gadgets</a></li>
+          <li><a class="nav-link" href="#questions">Questions</a></li>
         </ul>
       </nav>
     </header>
 
     <section id="destinations">
+      <h1>Explore The World</h1>
       <div id="dest-container">
         <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/xxNhi6NufqA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <button id="dest-button">Find Top Destinations</button>
@@ -26,11 +27,25 @@
     </section>
 
     <section id="gadgets">
-
+      <h2 id="gadgets-title">Gadgets</h2>
+      <div id="gadgets1">
+        <div id="img" class="img-container"><h2 class="img-text">Travel Vans For Sale</h2></div>
+        <div id="img2" class="img-container"><h2 class="img-text">Portable Wifi</h2></div>
+      </div>
+      <div id="gadgets2">
+        <div id="img3" class="img-container"><h2 class="img-text">Camping Gear</h2></div>
+        <div id="img4" class="img-container"><h2 class="img-text">Hardware</h2></div>
+      </div>
     </section>
 
     <section id="questions">
-
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="submit">
+        <h2 id="form-text">Questions</h2><hr />
+        <label for="Email">Email</label><br>
+        <input type="email" id="email" required placeholder="john.doe@mail.com"><br><br>
+        <textarea placeholder="Write your questions here..."></textarea><br><br>
+        <input type="submit" id="submit" value="Submit Info">
+      </form>
     </section>
   </body>
 </html>
